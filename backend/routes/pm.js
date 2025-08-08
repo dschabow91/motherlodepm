@@ -1,0 +1,1 @@
+const router = require('express').Router(); router.get('/', (req, res) => res.json([{ task: 'Check generator', due: '2025-01-01' }])); module.exports = router;

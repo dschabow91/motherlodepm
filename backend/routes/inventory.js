@@ -1,0 +1,1 @@
+const router = require('express').Router(); router.get('/', (req, res) => res.json([{ part: 'Bolt', quantity: 10 }])); module.exports = router;
